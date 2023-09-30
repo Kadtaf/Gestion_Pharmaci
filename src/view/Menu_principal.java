@@ -72,7 +72,7 @@ public class Menu_principal {
 		try {
 			String url = "jdbc:postgresql://localhost:5432/pharmaBase";
 			String utilisateur = "postgres";
-			String motDePasse = "PostgreRahma142&";
+			String motDePasse = " ";
 			Class.forName("org.postgresql.Driver");
 			con = DriverManager.getConnection(url, utilisateur, motDePasse);
 			System.out.println("Connextion établie");
@@ -126,7 +126,7 @@ public class Menu_principal {
 		frame.getContentPane().add(panel);
 		panel.setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("GESTION DE PHARMACIE");
+		JLabel lblNewLabel = new JLabel("GESTION PHARMACIE");
 		lblNewLabel.setForeground(Color.BLUE);
 		lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 26));
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
