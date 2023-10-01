@@ -71,7 +71,7 @@ public class Menu_principal {
 	public void Connect() throws SQLException {
 		try {
 			String url = "jdbc:postgresql://localhost:5432/pharmaBase";
-			String utilisateur = "postgres";
+			String utilisateur = " ";
 			String motDePasse = " ";
 			Class.forName("org.postgresql.Driver");
 			con = DriverManager.getConnection(url, utilisateur, motDePasse);
